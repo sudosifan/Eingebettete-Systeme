@@ -1,0 +1,76 @@
+NUMBER_OF_NODES { 7 }
+
+NODE_NAMES {
+T1
+T1
+T2
+T3
+T3
+T4
+T5
+}
+
+NUMBER_OF_RESOURCES { 5 }
+
+RESOURCE_NAMES {
+Task_T1
+Task_T2
+Task_T3
+Task_T4
+Task_T5
+}
+
+RELEASE_TIMES {
+0
+20
+0
+70
+80
+}
+
+DEADLINES {
+100
+70
+80
+110
+120
+}
+
+PERIODS {
+0
+0
+0
+0
+0
+}
+
+RESOURCE_MAP {
+1
+1
+2
+3
+3
+4
+5
+}
+
+START_TIME {
+50
+90
+20
+0
+30
+70
+95
+}
+
+END_TIME {
+60
+95
+30
+20
+50
+90
+120
+}
+

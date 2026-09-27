@@ -1,0 +1,3 @@
+#!/usr/bin/wish
+source ./gantt.tcl
+ShowGantt [lindex $argv 0]
